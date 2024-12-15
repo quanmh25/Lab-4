@@ -62,6 +62,10 @@
 **Дополнительно**
 
 Описание задачи о рюкзаке: https://proglib.io/p/python-i-dinamicheskoe-programmirovanie-na-primere-zadachi-o-ryukzake-2020-02-04
+<<<<<<< HEAD
 
 
+=======
+https://viblo.asia/p/bai-toan-cai-tui-va-nhung-ung-dung-xung-quanh-no-maGK7Nke5j2
+>>>>>>> 92c48cd3c29aaffb98ddd85ae59a48f382ae7c17
 
