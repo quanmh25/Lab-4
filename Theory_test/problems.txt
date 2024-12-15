@@ -1,0 +1,69 @@
+### BÀI 1: Bài toán đơn giản về ba lô
+**Mô tả:**
+Giả sử bạn có một ba lô với dung lượng là 5 ô và các vật phẩm sau:
+- **Vật phẩm A**: chiếm 3 ô, giá trị 50.
+- **Vật phẩm B**: chiếm 2 ô, giá trị 40.
+- **Vật phẩm C**: chiếm 1 ô, giá trị 30.
+
+**Yêu cầu:**
+Tìm giá trị tối đa mà bạn có thể đạt được nếu chọn các vật phẩm sao cho không vượt quá dung lượng ba lô.
+
+**Hướng dẫn:**
+1. Viết một hàm đệ quy để thử từng cách chọn vật phẩm.
+2. Cải thiện bằng cách sử dụng ma trận lưu trữ kết quả trung gian (quy hoạch động).
+
+---
+
+### BÀI 2: Dãy con lớn nhất
+**Mô tả:**
+Cho một dãy số `[3, 5, -1, 8, -2, 6]`. Hãy tìm tổng lớn nhất của dãy con liên tiếp.
+
+**Yêu cầu:**
+Tìm tổng lớn nhất của một dãy con liên tiếp (ví dụ: `[5, -1, 8]` có tổng là 12).
+
+**Hướng dẫn:**
+1. Viết hàm đệ quy để thử mọi dãy con.
+2. Sử dụng phương pháp quy hoạch động (Kadane’s Algorithm) để tối ưu hóa.
+
+---
+
+### BÀI 3: Số cách đổi tiền
+**Mô tả:**
+Bạn có các đồng xu với mệnh giá `[1, 2, 5]`. Hãy tìm số cách để đổi 10 đơn vị tiền.
+
+**Hướng dẫn:**
+1. Viết hàm đệ quy để thử từng cách chọn đồng xu.
+2. Dùng ma trận để lưu trữ số cách đổi với mỗi mệnh giá và tổng tiền còn lại.
+
+---
+
+### BÀI 4: Cân bằng trọng lượng
+**Mô tả:**
+Bạn có 4 viên đá với trọng lượng `[1, 2, 3, 4]`. Hãy chia chúng thành 2 nhóm sao cho sự chênh lệch trọng lượng giữa 2 nhóm là nhỏ nhất.
+
+**Hướng dẫn:**
+1. Dùng đệ quy để thử tất cả các cách chia nhóm.
+2. Sử dụng quy hoạch động để lưu trữ kết quả chênh lệch tối ưu ở từng trạng thái.
+
+---
+
+### BÀI 5: Lên cầu thang
+**Mô tả:**
+Bạn đang ở bậc đầu tiên của cầu thang có 10 bậc. Bạn có thể nhảy 1 hoặc 2 bậc mỗi lần. Hỏi có bao nhiêu cách để lên đến bậc cuối cùng?
+
+**Hướng dẫn:**
+1. Viết hàm đệ quy để thử từng cách nhảy.
+2. Sử dụng quy hoạch động để lưu số cách tại mỗi bậc.
+
+---
+
+### BÀI 6: Chọn vật phẩm bắt buộc
+**Mô tả:**
+Quay lại bài toán ba lô (Bài tập 1), giả sử vật phẩm B phải bắt buộc được chọn.
+
+**Yêu cầu:**
+Tìm giá trị tối đa có thể đạt được nếu bắt buộc phải chọn vật phẩm B.
+
+**Hướng dẫn:**
+1. Loại bỏ các trường hợp không chọn vật phẩm B.
+2. Áp dụng đệ quy hoặc quy hoạch động để tìm giá trị tối ưu.
