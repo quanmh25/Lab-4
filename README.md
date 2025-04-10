@@ -66,4 +66,6 @@
 
 Material: https://viblo.asia/p/bai-toan-cai-tui-va-nhung-ung-dung-xung-quanh-no-maGK7Nke5j2
 
+VNOI: https://wiki.vnoi.info/algo/dp/basic-dynamic-programming-1.md
+
 
